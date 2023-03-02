@@ -8,7 +8,6 @@ const { withNx } = require('@nrwl/next/plugins/with-nx');
  **/
 const nextConfig = {
   experimental: {
-    appDir: true,
     runtime: 'edge',
   },
   nx: {
